@@ -150,12 +150,12 @@ class _CartPageState extends State<CartPage> {
                 Navigator.pop(context);
               },
               child: Container(
-                margin: EdgeInsets.symmetric(horizontal: 20),
+                margin: const EdgeInsets.symmetric(horizontal: 20),
                 width: double.infinity,
                 height: 50,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                    color: Color(0xff004b23),
+                    color: const Color(0xff004b23),
                     border: Border.all(color: Colors.white),
                     borderRadius: BorderRadius.circular(12)),
                 child: const Text(
